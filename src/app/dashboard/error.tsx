@@ -1,10 +1,10 @@
-'use client'
-import React from 'react'
+'use client';
+import React from 'react';
 
-type Props = {}
+type Props = {};
 
 const error = (props: Props) => {
-  return <div>error</div>
-}
+  return <div>error</div>;
+};
 
-export default error
+export default error;
