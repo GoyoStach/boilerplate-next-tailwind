@@ -5,7 +5,7 @@ export const metadata = {
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <section style={{ backgroundColor: 'yellow', padding: '10px' }}>
+    <section className="p-5 bg-yellow-400">
       <div>Dashboard Layout</div>
       {children}
     </section>
