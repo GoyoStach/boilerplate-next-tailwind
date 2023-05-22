@@ -5,14 +5,11 @@ export const metadata = {
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <html lang="en">
-      <body style={{ backgroundColor: 'blue', padding: 0, margin: 8 }}>
-        <div>MAIN LAYOUT</div>
-        {children}
-      </body>
-    </html>
+    <section style={{ backgroundColor: 'yellow', padding: '10px' }}>
+      <div>Dashboard Layout</div>
+      {children}
+    </section>
   )
 }
 
 export default RootLayout
-
